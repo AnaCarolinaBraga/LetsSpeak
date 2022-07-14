@@ -1,0 +1,19 @@
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\Let’s Speak.exe
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\Let’s Speak.deps.json
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\Let’s Speak.runtimeconfig.json
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\Let’s Speak.dll
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\Let’s Speak.pdb
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\Sharprompt.dll
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\ja\Sharprompt.resources.dll
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.csproj.AssemblyReference.cache
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.AssemblyInfoInputs.cache
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.AssemblyInfo.cs
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.csproj.CoreCompileInputs.cache
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.csproj.CopyComplete
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.dll
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\refint\Let’s Speak.dll
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.pdb
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\Let’s Speak.genruntimeconfig.cache
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\obj\Debug\net6.0\ref\Let’s Speak.dll
+C:\Users\Ana Carolina\source\repos\Let’s Speak\Let’s Speak\bin\Debug\net6.0\BetterConsoleTables.dll
