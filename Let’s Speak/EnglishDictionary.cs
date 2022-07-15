@@ -2,7 +2,6 @@
 using Sharprompt;
 using System.ComponentModel.DataAnnotations;
 using static Let_s_Speak.Database;
-using System.IO;
 
 namespace Let_s_Speak
 {
@@ -23,8 +22,11 @@ namespace Let_s_Speak
             if (!Prompt.Confirm("Deseja Salvar?"))
                 return;
 
-            Database.englishDictionary.Add(englishWord);
-            Database.Save(DatabaseOption.englishDictionary);
+            if(InputValidation.WordValidation(englishWord.Palavra) == true && InputValidation.WordValidation(englishWord.Traducao) == true)
+            {
+                Database.englishDictionary.Add(englishWord);
+                Database.Save(DatabaseOption.englishDictionary);
+            }    
         }
 
         public static void ListOfWords()
@@ -53,8 +55,9 @@ namespace Let_s_Speak
         public static void Search()
         {
             Console.WriteLine("Qual a palavra ou termo que você deseja procurar?");
-            string wordSearch = Console.ReadLine();
-            Database.Search(wordSearch);
+            var wordSearch = Console.ReadLine();
+            if(InputValidation.WordValidation(wordSearch) == true)
+                Database.Search(wordSearch);
         }
         public override string ToString()
         {
