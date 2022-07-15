@@ -61,26 +61,21 @@ namespace Let_s_Speak
 
         public static void Search(String searchWord)
         {
+            bool exist = false;
+            foreach (var searchAll in englishDictionary)
+            {
+                if (searchAll.Palavra.Contains(searchWord, StringComparison.InvariantCultureIgnoreCase))
+                {
+                    Console.WriteLine($"{searchAll.Palavra} : {searchAll.Traducao}\n");
+                    exist = true;
+                }
+            }
+            if (!exist)
+            {
+                Console.WriteLine("Nenhum termo encontrado.");
+            }   
 
-            //foreach (EnglishDictionary word in englishDictionary)
-            //{
-            //    string search = word.Palavra;
-            //    if (search.Equals(searchWord))
-            //    {
-            //        Console.WriteLine(search);
-            //    }
-            //}
-            //int count = 0;
-            //foreach (var line in File.ReadAllLines(_engliswordsDb))
-            //{
-            //    if (line.Contains(searchWord))
-            //    {
-            //        Console.WriteLine(line);
-            //        count++;
-            //    } 
-            //}
-            //if(count == 0)
-            //    Console.WriteLine("Não foi possível encontrar o termo pesquisado.");
+
         }
     }
 }

@@ -39,6 +39,7 @@ namespace Let_s_Speak
 
         public static void Remove()
         {
+            var table = new Table(TableConfiguration.UnicodeAlt());
             var wordRemove = Prompt.Select("Selecione a palavra para Remover:", Database.englishDictionary);
             var confirm = Prompt.Confirm("Tem Certeza?", false);
 
@@ -55,6 +56,9 @@ namespace Let_s_Speak
             string wordSearch = Console.ReadLine();
             Database.Search(wordSearch);
         }
-
+        public override string ToString()
+        {
+            return Palavra;
+        }
     }
 }
