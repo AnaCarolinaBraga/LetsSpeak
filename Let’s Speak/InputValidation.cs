@@ -3,10 +3,10 @@ namespace Let_s_Speak
 {
     internal class InputValidation
     {
-        public static bool WordValidation(string wordSearch)
+        public static bool WordValidation(string wordValidation)
         {
             bool valido = true;
-            if (wordSearch.Contains("?") || wordSearch.Contains("*"))
+            if (wordValidation.Contains("?") || wordValidation.Contains("*"))
             {
                 Console.WriteLine("Caracteres inválidos.");
                 return valido = false;
